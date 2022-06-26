@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka+One&family=Handlee&family=Patrick+Hand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <meta charset="UFT-8">
+       <div class="socials">
+        <a href="https://twitter.com/cavitycore" class="footer__social">
+        <i class="uil uil-twitter-alt"></i>
+    </a>
+
+    <a href="https://www.instagram.com/cavity_core/" class="footer__social">
+        <i class="uil uil-instagram"></i>
+    </a>
+
+    <a href="https://toyhou.se/Cavitycore" class="footer__social">
+        <i class="uil uil-home"></i>
+    </a>
+
+    <a href="https://www.deviantart.com/cavity-core" class="footer__social">
+        <i class="uil uil-pen"></i>
+    </a>
+    </div>
+        <title>Pricing Guide</title>
+        
+            <img class= 'core' id='left-core' src="css/images/core.png" alt=""><img class= 'core' id='right-core' src="css/images/core.png" alt="">
+            <div class="top-section">
+                
+        
+        </div>
+    </head>
+    <body>
+        <div class="container">            
+            <div class="animation"><img class= animated-core' src="css/images/core.png" alt="" style="height: 150px;">
+            </br>
+        </br>
+
+        <a href="/tos.html"><button type="button" class="btn"><h1>ToS</h1></button></a>
+        
+                <h1>Commission Pricing</h1>
+                <h2>Commission prices are in USD. PayPal payments only.<br>
+                </h2>
+                    <button type="button" class="btn collapsible"><h1>Add-Ons:</h1></button>
+<div class="collapsible-content"><h3>Custom +50%
+                            <br>Complex +50%
+                            <br>Extra character +%75
+                            <br>NSFW +50%
+                            <br>Commercial user x2
+                        </h3>
+                    </div>
+<button type="button" class="btn collapsible"><h2 ID='drop-toggle'><h1>Ref Guide:</h1></h2></button>
+
+                        <div class="collapsible-content"><h3>Base cost 1 view/full body = $30</h3>
+                        <h3> Each additional full body view + $22 </h3>
+                        <h3>Each additional partial view + $15</h3>
+                        <h3>Clothing ref + $10 (complex + $20)</h3>
+                        <h3>Mini views (eye, mouth and paws) + $5 (free over $50)</h3></div>
+                        
+            <div class="timeline">
+                <!--<div class="line" id=''>-->
+                    <br><br>
+                        <div id="section1" class="right-view">
+                            <h2>Headshot</h2>
+                            <div id="animation-element">
+                                <h2 class= head-price>$12</h2>
+                                <a href="gallery.html#scroll-section1"><img src="css/images/hs/saturn wm.png" alt="" class='headshot-img' id='sample'></a>
+                            </div>
+                            
+                        </div>                  
+                        <div id="section2" class="left-view">
+                            
+                            <h2>Bust</h2>
+                            <div id="animation-element" ><h2>$20</h2>
+                            <a href="gallery.html#scroll-section2"><img src="css/images/bust/sanguine bust wm.png" alt="" class='bust-img' id='sample'></a>
+                            </div>
+
+                        </div>
+                        
+                        <div id="section3" class="right-view">
+                            <h2>Full-body</h2>
+                            <div id="animation-element" ><h2>$30</h2>
+                                <a href="gallery.html#scroll-section3"><img src="css/images/fb/sakura fox wm.png" alt="" class='fb-img' id='sample'></a>
+                        </div>
+                    </div>
+                                           
+                        <div id="section4" class="left-view">
+                            <h2>Ref Sheet</h2>
+                            <div id="animation-element"><h2>$52+</h2>
+                                <a href="gallery.html#scroll-section4"><img src="css/images/ref/mailbun wm.png" alt="" class='ref-img' id='sample'></a>
+                        </div>
+                    </div>
+                    
+                        <div id="section5" class="right-view">
+                            <h2>Doodle Sheet</h2>
+                            <div id="animation-element"><h2>$60</h2>
+                                <a href="gallery.html#scroll-section5"><img src="css/images/doodle/heven doodle wm.png" alt="" class="ref-image" id="sample"></a>
+                        </div>
+                    </div>
+                    <div id="section6"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+        <script src="script/timeline.js"></script>
+    
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+                </script>
+    </body>

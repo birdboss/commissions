@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "comms",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "..\\..\\..\\jquery\\project\\project\\images"
+		}
+	],
+	"settings": {}
+}
