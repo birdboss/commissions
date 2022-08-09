@@ -23,12 +23,22 @@ gsap.to("#section1", {
     transition: '1s'
 });
 
+gsap.to("#section6", {
+    scrollTrigger: {
+        trigger: '#section6',
+        start: "center bottom"
+    },
+    x: 500,
+    opacity: 1,
+    transition: '1s'
+})
+
 gsap.to("#section2", {
     scrollTrigger: {
         trigger: '#section2',
         start: "center bottom"
     },
-    x: 500,
+    x: -500,
     opacity: 1,
     transition: '1s'
 })
@@ -38,7 +48,7 @@ gsap.to("#section3", {
         trigger: '#section3',
         start: "center bottom"
     },
-    x: -500,
+    x: 500,
     opacity: 1,
     transition: '1s'
 })
@@ -48,7 +58,7 @@ gsap.to("#section4", {
         trigger: '#section4',
         start: "center bottom"
     },
-    x: 500,
+    x: -500,
     opacity: 1,
     transition: '1s'
 })
@@ -58,10 +68,11 @@ gsap.to("#section5", {
         trigger: '#section5',
         start: "center bottom"
     },
-    x: -500,
+    x: 500,
     opacity: 1,
     transition: '1s'
 });
+
 
 $(function(){
     $('a[href*=\\#]:not([href=\\#])').on('click', function(){
