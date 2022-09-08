@@ -8,6 +8,7 @@ font-family: 'Patrick Hand', cursive;*/
     --third-color: #fcc4c4;
     --light-color: #fff6dd;
     --dark-color: #e28493;
+    -- second-dark-color: #678b8a;
     --bg-color: #f1caff50;
     --dark-less-opaque: #ffcac850;
 }
@@ -185,7 +186,7 @@ body{
     align-items: center;
     justify-content: center;
     opacity: 0.6;    
-    box-shadow: 2px 2px 5px var(--dark-color);
+    box-shadow: 2px 2px 5px var(--second-dark-color);
     position: fixed;
     margin: 20px;
     margin-left: 40px;
