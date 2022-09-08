@@ -177,7 +177,7 @@ body{
     width: 80px;
     height: 80px;
     background-color: var(--first-color);
-    color: var(--light-color);
+    
     text-decoration: none;
     font-size: 40px;
     border-radius: 50%;
@@ -195,6 +195,10 @@ body{
 .floating-button:hover {
     opacity: 1;
     transition: 500ms;
+}
+
+.floating-button h2{
+    color: var(--light-color);
 }
 
 .drop-btns{
