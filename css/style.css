@@ -176,7 +176,7 @@ body{
 .floating-button {
     width: 80px;
     height: 80px;
-    background-color:var(--first-color);
+    background-color: var(--first-color);
     color: var(--light-color);
     text-decoration: none;
     font-size: 40px;
