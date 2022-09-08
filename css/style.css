@@ -29,7 +29,7 @@ h3 {
 
 .scroll-title {
     font-size: 50px;
-    background-color: #cfa8ff30;
+    background-color: var(--dark-less-opaque);
 }
 
 
