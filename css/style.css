@@ -176,8 +176,8 @@ body{
 .floating-button {
     width: 80px;
     height: 80px;
-    background-color:var(--color-two);
-    color: var(--color-one);
+    background-color:var(--first-color);
+    color: var(--second-color);
     text-decoration: none;
     font-size: 40px;
     border-radius: 50%;
