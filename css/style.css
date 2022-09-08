@@ -37,7 +37,6 @@ body{
     font-family: 'Patrick Hand', cursive;
     margin: 0;
     padding: 0;
-    width: 300px;
     line-height: 1.5;
     font-weight: 400;
     color: var(--first-color);
