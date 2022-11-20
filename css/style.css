@@ -58,7 +58,9 @@ body{
     margin: 0 auto;
 }
 
-
+.soc:hover {
+    transform: rotate(5deg);
+}
 
 .timeline{
     position: relative;
