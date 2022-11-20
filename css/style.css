@@ -62,6 +62,10 @@ body{
     transform: rotate(5deg);
 }
 
+.drop-btn:hover{
+    transform: rotate(5deg);
+}
+
 .timeline{
     position: relative;
     min-height: 150px;
