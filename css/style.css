@@ -61,11 +61,6 @@ body{
 .soc:hover {
     transform: rotate(5deg);
 }
-
-.drop-btns:hover{
-    transform: rotate(5deg);
-}
-
 .timeline{
     position: relative;
     min-height: 150px;
