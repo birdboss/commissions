@@ -241,5 +241,5 @@ body{
     display: none;
 }
 
-#example: hove + #hide {
+#example: hover + #hide {
     display: flex;
