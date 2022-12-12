@@ -258,7 +258,7 @@ body{
     transition: ease-in-out, 1s;
 }
 
-.ych {
+.ych:hover {
     transition: 0.5s;
     transform: scale(1.1);
 }
