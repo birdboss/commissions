@@ -255,4 +255,5 @@ body{
 
 .example:hover #hide {
     display: flex;
+    transition: ease-in-out;
 }
