@@ -253,6 +253,6 @@ body{
     display: none;
 }
 
-.example:hover ~ .img-area {
+.example:hover ~ #hide {
     display: block;
 }
