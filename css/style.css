@@ -238,7 +238,7 @@ body{
 }
 
 #hide {
-    display: none;
+    display: hide;
 }
 
 #example:hover + #hide {
