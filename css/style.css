@@ -236,3 +236,10 @@ body{
   max-height: 0;
   transition: max-height 0.2s ease-out;
 }
+
+#hide {
+    display: none;
+}
+
+#example: hove + #hide {
+    display: flex;
