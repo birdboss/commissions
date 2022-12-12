@@ -241,6 +241,6 @@ body{
     display: none;
 }
 
-#example:hover + #hide {
+#example:hover + .single-img {
     display: block;
 }
