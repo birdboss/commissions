@@ -259,6 +259,6 @@ body{
 }
 
 .ych:hover {
-    transition: ease-in-out,0.5s;
+    transition: 0.5s;
     transform: scale(1.1);
 }
