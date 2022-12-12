@@ -257,3 +257,8 @@ body{
     display: flex;
     transition: ease-in-out, 1s;
 }
+
+.ych {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
