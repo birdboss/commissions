@@ -241,5 +241,5 @@ body{
     display: none;
 }
 
-#example: hover + #hide {
+#example:hover + #hide {
     display: block;
