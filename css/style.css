@@ -254,5 +254,5 @@ body{
 }
 
 .example:hover #hide {
-    display: flexbox;
+    display: flex;
 }
